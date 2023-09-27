@@ -1,0 +1,17 @@
+.bg-custom {
+    background-color: indigo;
+}
+.navbar .navbar-brand{
+    color: white;
+}
+.navbar .nav-item .nav-link{
+
+    color:white;
+    /*border-radius: 15px;*/
+}
+
+.navbar .nav-item:hover .nav-link {
+    background-color:cornflowerblue;
+    color: aliceblue;
+    border-radius: 15px;
+}
