@@ -49,6 +49,7 @@ public class BooksAdd extends HttpServlet {
              System.out.println(f);
 
          }catch (Exception e){
+             //noinspection CallToPrintStackTrace
              e.printStackTrace();
          }
     }

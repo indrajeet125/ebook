@@ -1,10 +1,4 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Lokendra Kushwah
-  Date: 11/2/2022
-  Time: 11:54 PM
-  To change this template use File | Settings | File Templates.
---%>
+
 <%@ page import="java.sql.Connection" %>
 <%@ page import="com.DB.DBConnect" %>
 <%@ page import="com.DAO.BookDAOImpl" %>

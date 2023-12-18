@@ -2,13 +2,8 @@
 <%@ page import="com.DB.DBConnect" %>
 <%@ page import="com.entity.User" %>
 <%@ page import="com.entity.Cart" %>
-<%@ page import="java.util.List" %><%--
-  Created by IntelliJ IDEA.
-  User: Lokendra Kushwah
-  Date: 7/27/2023
-  Time: 3:28 AM
-  To change this template use File | Settings | File Templates.
---%>
+<%@ page import="java.util.List" %>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page isELIgnored="false" %>

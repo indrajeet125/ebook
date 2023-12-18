@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Lokendra Kushwah
-  Date: 11/9/2022
-  Time: 5:44 PM
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page isELIgnored="false" %>
@@ -37,12 +30,12 @@
                             <c:remove var="FailedMsg" scope="session"></c:remove>
                         </c:if>
                         <div class="col-12">
-                            <label  class="form-label">Email</label>
+                            <label class="form-label">Email</label>
                             <input type="email" class="form-control" id="" required="required" name="email">
                         </div>
                         <div class="col-md-12">
-                            <label  class="form-label">Password</label>
-                            <input type="password" class="form-control"  required="required" name="password">
+                            <label class="form-label">Password</label>
+                            <input type="password" class="form-control" required="required" name="password">
                         </div>
 
                         <div class="col-12 text-center">
